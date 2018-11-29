@@ -15,6 +15,7 @@ students.sort(function(a, b) {
   }
 
   else {
+    return 0;
     students.sort(function (a, b) {
     return a.age - b.age;
     });
